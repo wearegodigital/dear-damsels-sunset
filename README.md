@@ -13,11 +13,16 @@ Built with plain HTML/CSS, served by **GitHub Pages**, and intended to stay onli
 
 ## 📂 Project structure
 
-/
+
+
 ├── index.html   # main page shown at /
+
 ├── 404.html     # catch-all redirect → /
+
 ├── logo.png     # placeholder; drop real logo here
+
 ├── .nojekyll    # disable Jekyll processing
+
 └── CNAME        # tells GitHub Pages the custom domain
 
 &nbsp;
