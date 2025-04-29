@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dear Damsels</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: rgb(0, 0, 0);
+            --secondary-color: rgb(188, 214, 255);
+            --tertiary-color: rgb(3, 152, 158);
+            --accent-1-color: rgb(252, 203, 198);
+            --accent-2-color: rgb(136, 208, 196);
+            --accent-3-color: rgb(240, 224, 51);
+        }
+        
+        body {
+            font-family: 'EB Garamond', serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            background-color: white;
+            color: var(--primary-color);
+            text-align: center;
+            background-image: url('background.png');
+            background-size: cover;
+            background-position: center;
+            box-sizing: border-box;
+        }
+        
+        .container {
+            max-width: 600px;
+            width: calc(100vw - 32px);
+            padding: 40px;
+            border-radius: 8px;
+            background-color: white;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            box-sizing: border-box;
+        }
+        
+        .logo {
+            max-width: 288px;
+            width: 100%;
+            height: auto;
+            margin: 30px auto;
+        }
+        
+        h2 {
+            font-weight: 500;
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+        }
+        
+        p {
+            font-size: 20px;
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+        
+        a {
+            color: var(--tertiary-color);
+            text-decoration: none;
+            border-bottom: 1px solid var(--tertiary-color);
+            transition: color 0.2s ease;
+        }
+        
+        a:hover {
+            color: var(--accent-2-color);
+            border-bottom-color: var(--accent-2-color);
+        }
+        
+        footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.svg" alt="Dear Damsels Logo" class="logo">
+        <h2>Thank you for supporting Dear Damsels!</h2>
+        <p>
+            As of May 2025, we are no longer operating. For more information, you can check our 
+            <a href="https://www.instagram.com/deardamsels/" target="_blank">archived Instagram</a>.
+        </p>
+        <footer>
+            &copy; 2025 Dear Damsels
+        </footer>
+    </div>
+</body>
+</html> 
